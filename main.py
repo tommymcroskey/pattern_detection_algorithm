@@ -1,4 +1,4 @@
-def repeat(input_list):
+def repeat(input_list=None):
 
     #  edge cases:
     if input_list is None:
