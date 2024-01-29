@@ -24,8 +24,7 @@ class Test_Main(unittest.TestCase):
         test_list = test_pattern * 20
 
         # Assert that main.repeat correctly identifies the repeating pattern
-        print(main.repeat(test_list))
-        #  self.assertEqual(main.repeat(test_list), test_pattern)
+        self.assertEqual(main.repeat(test_list), test_pattern * 10)
 
 if __name__ == '__main__':
     unittest.main()
